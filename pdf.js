@@ -1,9 +1,7 @@
-// playground requires you to assign document definition to a variable called dd
-
 var dd = {
 	content: [
 	   {
-			text: 'Pay Slip\n\n',
+			text: 'Pay Slip - Johnson & Johnson\n\n',
 			style: 'header'
 	   },
 	{

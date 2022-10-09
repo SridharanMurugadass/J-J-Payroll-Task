@@ -11,5 +11,4 @@ router.get('/salary',usersControllers.salary);
 router.get('/payment',usersControllers.payment);
 router.get('/attendence',usersControllers.attendence);
 router.get('/pay_slip',usersControllers.pay_slip);
-console.log('router!!');
 module.exports = router;

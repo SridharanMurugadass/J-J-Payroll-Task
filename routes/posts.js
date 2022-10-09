@@ -5,5 +5,4 @@ const postControllers = require('../controllers/postControllers');
 
 router.get('/',postControllers.home);
 
-console.log('router!!');
 module.exports = router;

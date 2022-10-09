@@ -1,14 +1,11 @@
 attendence.find({eid:emp.eid,month:id},function(err,docs){
-    console.log('attendence');
-    console.log(docs);
     var leave = docs[0].leaves; 
     de.total = de.total+(leave*de.leave);
     at.amount = sal.total-de.total; 
-     console.log(at);      
     var documentDefinition = {
         content: [
            {
-                text: 'Pay Slip\n\n',
+                text: 'Pay Slip - Johnson & Johnson\n\n',
                 style: 'header'
            },
         {

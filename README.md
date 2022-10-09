@@ -1,6 +1,3 @@
-# Payroll-Manangement-System
-Payroll Management System 
-
 Technology Used:-
 NodeJs, Express, EJS , Mongoose, Pdfmake.
 
