@@ -1,0 +1,44 @@
+Hi @subhashish.mishra@anz.com
+     Hope you're doing good! Apologies for the delay. My AnZ email is not working now inside my VDI. still i am facing issues on my VDI. So that I am sending this from my wipro email.
+
+Risk Adaptor UC1 Status...
+
+Things Done...
+
+-> Development of consumer and prod using dotnet programming  API's are done
+-> API's to keep listening the NAS drive for picking up the .csv files
+-> .csv parser is implemented which pulls the csv file and convert into objects
+-> Generic Json conversion Adaptor is implemented which pulls any form of file and convert that into JSON object for now it suports all types of csv file.
+-> Kafka client is added to the dotnet functions, which can connect to the kafka bootstrap server and producer the message to the topics available.
+-> Implemented the containerization using the docker image which can build all the code and converts into a single image url which can be deployed anywhere on containerized platforms from the appropriate container registries.
+
+
+Things Pending ...
+
+-> Pushing it to the Event Mesh that is AnZ's confluent kafka server
+-> Automating the CI/CD deployments using git actions
+
+
+Blockers...
+
+-> Inside the VDI we are unable to connect to confluent kafka which we have created for trial
+-> Also bringing our code inside the VDI is really hard each time we are doing the line by line copy from our local wipro laptops to VDI
+-> Waiting for the AnZ's confluent kafka event mesh details.
+
+
+Once we get this AnZ Confluent details we configure it once and test inside the VDI and then will push the code to the GitHub. It takes only a max of 4 to 5 days to complete UC1 once we have this confluent details ready.
+We are following up @sanjay.behera@anz.com and he is following up with the event mesh team, since lack of resources running with low man power. he is unable to get it for now.
+
+
+Risk Adaptor UC2 Status...
+
+-> We started building the pipelines for UC2 it almost done with the consumer part and NAS drive storage it will be done max by 3rd week of this month.
+
+
+Note : Internal End to End demo video is attached in this email. 
+riskadaptordemo 1.mp4
+ 
+
+
+thanks,
+Sri
